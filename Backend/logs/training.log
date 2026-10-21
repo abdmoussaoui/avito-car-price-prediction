@@ -1,0 +1,144 @@
+2025-05-15 05:21:36,968 - INFO - Starting training script...
+2025-05-15 05:21:36,968 - INFO - Model save directory created/verified at: ..\models_lib
+2025-05-15 05:21:37,203 - INFO - Loaded dataset from ..\..\data\preprocessing\clean_data.csv, shape: (71755, 18)
+2025-05-15 05:21:37,203 - INFO - Columns in dataset: ['Prix', 'Année-Modèle', 'Kilométrage', 'Nombre de portes', 'Première main', 'Puissance fiscale', 'État', 'Safety_Score', 'Comfort_Score', 'Tech_Score', 'Loc_Marque_Modèle_encoded', 'Boite de vitesses_Automatique', 'Boite de vitesses_Manuelle', 'Type de carburant_Diesel', 'Type de carburant_Electrique', 'Type de carburant_Essence', 'Type de carburant_Hybride', 'Type de carburant_LPG']
+2025-05-15 05:21:37,222 - INFO - Subsampled dataset shape: (35878, 18)
+2025-05-15 05:21:37,222 - INFO - Training set shape: (28702, 17), Test set shape: (7176, 17)
+2025-05-15 05:21:37,253 - INFO - Training Linear Regression...
+2025-05-15 05:21:37,270 - INFO - Linear Regression trained in 0.02 seconds
+2025-05-15 05:21:37,270 - INFO - Linear Regression - Train MSE (original scale): 3503115726.8306, Test MSE (original scale): 2999995761.7051
+2025-05-15 05:21:37,270 - INFO - Linear Regression - Train R2 (original scale): 0.7177, Test R2 (original scale): 0.7312
+2025-05-15 05:21:37,270 - INFO - Linear Regression does not support feature importance
+2025-05-15 05:21:37,270 - INFO - Saving Linear Regression model to: ..\models_lib\linear_regression_model.pkl
+2025-05-15 05:21:37,270 - INFO - Linear Regression model saved successfully
+2025-05-15 05:21:37,270 - INFO - Training Random Forest...
+2025-05-15 05:21:37,270 - INFO - Starting hyperparameter tuning for Random Forest...
+2025-05-15 05:23:27,590 - INFO - Random Forest tuning completed in 110.32 seconds
+2025-05-15 05:23:27,590 - INFO - Random Forest best params: {'max_depth': 20, 'min_samples_split': 4, 'n_estimators': 121}
+2025-05-15 05:23:38,563 - INFO - Random Forest trained in 10.97 seconds
+2025-05-15 05:23:39,371 - INFO - Random Forest - Train MSE (original scale): 847511078.3313, Test MSE (original scale): 2310222347.9507
+2025-05-15 05:23:39,371 - INFO - Random Forest - Train R2 (original scale): 0.9317, Test R2 (original scale): 0.7930
+2025-05-15 05:23:39,387 - INFO - Random Forest Feature Importance:
+2025-05-15 05:23:39,387 - INFO - Loc_Marque_Modèle_encoded        0.691707
+Année-Modèle                     0.201893
+Kilométrage                      0.023090
+Puissance fiscale                0.022616
+État                             0.008872
+Safety_Score                     0.007536
+Comfort_Score                    0.007360
+Type de carburant_Diesel         0.007031
+Boite de vitesses_Automatique    0.006909
+Tech_Score                       0.005543
+Boite de vitesses_Manuelle       0.005127
+Type de carburant_Essence        0.004836
+Première main                    0.003435
+Nombre de portes                 0.002912
+Type de carburant_Hybride        0.000713
+Type de carburant_Electrique     0.000390
+Type de carburant_LPG            0.000030
+2025-05-15 05:23:39,387 - INFO - Saving Random Forest model to: ..\models_lib\random_forest_model.pkl
+2025-05-15 05:23:39,465 - INFO - Random Forest model saved successfully
+2025-05-15 05:23:39,465 - INFO - Training LightGBM...
+2025-05-15 05:23:39,465 - INFO - Starting hyperparameter tuning for LightGBM...
+2025-05-15 05:23:48,399 - INFO - LightGBM tuning completed in 8.93 seconds
+2025-05-15 05:23:48,399 - INFO - LightGBM best params: {'learning_rate': np.float64(0.07340279606636547), 'max_depth': 10, 'n_estimators': 186}
+2025-05-15 05:23:48,582 - INFO - LightGBM trained in 0.18 seconds
+2025-05-15 05:23:48,707 - INFO - LightGBM - Train MSE (original scale): 2479840869.1591, Test MSE (original scale): 2483770981.4458
+2025-05-15 05:23:48,707 - INFO - LightGBM - Train R2 (original scale): 0.8002, Test R2 (original scale): 0.7775
+2025-05-15 05:23:48,707 - INFO - LightGBM Feature Importance:
+2025-05-15 05:23:48,707 - INFO - Loc_Marque_Modèle_encoded        1783
+Année-Modèle                     1190
+Puissance fiscale                 654
+Kilométrage                       608
+Comfort_Score                     209
+Safety_Score                      196
+État                              191
+Type de carburant_Diesel          155
+Boite de vitesses_Automatique     136
+Tech_Score                        131
+Type de carburant_Essence         103
+Première main                      92
+Nombre de portes                   76
+Type de carburant_Hybride          33
+Type de carburant_Electrique       23
+Boite de vitesses_Manuelle          0
+Type de carburant_LPG               0
+2025-05-15 05:23:48,707 - INFO - Saving LightGBM model to: ..\models_lib\lightgbm_model.pkl
+2025-05-15 05:23:48,707 - INFO - LightGBM model saved successfully
+2025-05-15 05:23:48,707 - INFO - Best model: Random Forest
+2025-05-15 05:23:48,707 - INFO - Best model Test MSE: 2310222347.9507
+2025-05-15 05:23:48,707 - INFO - Best model Test R2: 0.7930
+2025-05-15 05:23:48,707 - INFO - Saving best model to: ..\models_lib\best_model.pkl
+2025-05-15 05:23:48,848 - INFO - Best model saved successfully
+2025-05-15 05:25:33,669 - INFO - Starting training script...
+2025-05-15 05:25:33,669 - INFO - Model save directory created/verified at: ..\models_lib
+2025-05-15 05:25:33,818 - INFO - Loaded dataset from ..\..\data\preprocessing\clean_data.csv, shape: (71755, 18)
+2025-05-15 05:25:33,818 - INFO - Columns in dataset: ['Prix', 'Année-Modèle', 'Kilométrage', 'Nombre de portes', 'Première main', 'Puissance fiscale', 'État', 'Safety_Score', 'Comfort_Score', 'Tech_Score', 'Loc_Marque_Modèle_encoded', 'Boite de vitesses_Automatique', 'Boite de vitesses_Manuelle', 'Type de carburant_Diesel', 'Type de carburant_Electrique', 'Type de carburant_Essence', 'Type de carburant_Hybride', 'Type de carburant_LPG']
+2025-05-15 05:25:33,818 - INFO - Subsampled dataset shape: (35878, 18)
+2025-05-15 05:25:33,834 - INFO - Training set shape: (28702, 17), Test set shape: (7176, 17)
+2025-05-15 05:25:33,849 - INFO - Training Linear Regression...
+2025-05-15 05:25:33,865 - INFO - Linear Regression trained in 0.02 seconds
+2025-05-15 05:25:33,865 - INFO - Linear Regression - Train MSE (original scale): 3503115726.8306, Test MSE (original scale): 2999995761.7051
+2025-05-15 05:25:33,865 - INFO - Linear Regression - Train R2 (original scale): 0.7177, Test R2 (original scale): 0.7312
+2025-05-15 05:25:33,865 - INFO - Linear Regression does not support feature importance
+2025-05-15 05:25:33,865 - INFO - Saving Linear Regression model to: ..\models_lib\linear_regression_model.pkl
+2025-05-15 05:25:33,865 - INFO - Linear Regression model saved successfully
+2025-05-15 05:25:33,880 - INFO - Training Random Forest...
+2025-05-15 05:25:33,880 - INFO - Starting hyperparameter tuning for Random Forest...
+2025-05-15 05:27:25,637 - INFO - Random Forest tuning completed in 111.76 seconds
+2025-05-15 05:27:25,637 - INFO - Random Forest best params: {'max_depth': 20, 'min_samples_split': 4, 'n_estimators': 121}
+2025-05-15 05:27:37,562 - INFO - Random Forest trained in 11.92 seconds
+2025-05-15 05:27:38,387 - INFO - Random Forest - Train MSE (original scale): 847511078.3313, Test MSE (original scale): 2310222347.9507
+2025-05-15 05:27:38,390 - INFO - Random Forest - Train R2 (original scale): 0.9317, Test R2 (original scale): 0.7930
+2025-05-15 05:27:38,409 - INFO - Random Forest Feature Importance:
+2025-05-15 05:27:38,409 - INFO - Loc_Marque_Modèle_encoded        0.691707
+Année-Modèle                     0.201893
+Kilométrage                      0.023090
+Puissance fiscale                0.022616
+État                             0.008872
+Safety_Score                     0.007536
+Comfort_Score                    0.007360
+Type de carburant_Diesel         0.007031
+Boite de vitesses_Automatique    0.006909
+Tech_Score                       0.005543
+Boite de vitesses_Manuelle       0.005127
+Type de carburant_Essence        0.004836
+Première main                    0.003435
+Nombre de portes                 0.002912
+Type de carburant_Hybride        0.000713
+Type de carburant_Electrique     0.000390
+Type de carburant_LPG            0.000030
+2025-05-15 05:27:38,409 - INFO - Saving Random Forest model to: ..\models_lib\random_forest_model.pkl
+2025-05-15 05:27:38,472 - INFO - Random Forest model saved successfully
+2025-05-15 05:27:38,472 - INFO - Training LightGBM...
+2025-05-15 05:27:38,472 - INFO - Starting hyperparameter tuning for LightGBM...
+2025-05-15 05:27:48,527 - INFO - LightGBM tuning completed in 10.06 seconds
+2025-05-15 05:27:48,528 - INFO - LightGBM best params: {'learning_rate': np.float64(0.07340279606636547), 'max_depth': 10, 'n_estimators': 186}
+2025-05-15 05:27:48,869 - INFO - LightGBM trained in 0.34 seconds
+2025-05-15 05:27:49,041 - INFO - LightGBM - Train MSE (original scale): 2479840869.1591, Test MSE (original scale): 2483770981.4458
+2025-05-15 05:27:49,041 - INFO - LightGBM - Train R2 (original scale): 0.8002, Test R2 (original scale): 0.7775
+2025-05-15 05:27:49,041 - INFO - LightGBM Feature Importance:
+2025-05-15 05:27:49,041 - INFO - Loc_Marque_Modèle_encoded        1783
+Année-Modèle                     1190
+Puissance fiscale                 654
+Kilométrage                       608
+Comfort_Score                     209
+Safety_Score                      196
+État                              191
+Type de carburant_Diesel          155
+Boite de vitesses_Automatique     136
+Tech_Score                        131
+Type de carburant_Essence         103
+Première main                      92
+Nombre de portes                   76
+Type de carburant_Hybride          33
+Type de carburant_Electrique       23
+Boite de vitesses_Manuelle          0
+Type de carburant_LPG               0
+2025-05-15 05:27:49,041 - INFO - Saving LightGBM model to: ..\models_lib\lightgbm_model.pkl
+2025-05-15 05:27:49,056 - INFO - LightGBM model saved successfully
+2025-05-15 05:27:49,056 - INFO - Best model: Random Forest
+2025-05-15 05:27:49,056 - INFO - Best model Test MSE: 2310222347.9507
+2025-05-15 05:27:49,056 - INFO - Best model Test R2: 0.7930
+2025-05-15 05:27:49,056 - INFO - Saving best model to: ..\models_lib\best_model.pkl
+2025-05-15 05:27:49,225 - INFO - Best model saved successfully

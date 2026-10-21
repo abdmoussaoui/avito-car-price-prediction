@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.recommendation {
+  width: 100% !important;
+  height: 500px !important;
+}
+.recommendation > iframe {
+  width: 100% !important;
+  height: 100% !important;
+}

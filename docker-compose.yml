@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./Backend
+    container_name: car-price-backend
+    volumes:
+      - ./Backend:/app
+    ports:
+      - "5000:5000"
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: car-price-frontend
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:80"

@@ -1,0 +1,1490 @@
+2025-05-08 11:58:11,501 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 11:58:11,635 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 11:58:19,372 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 11:58:19,993 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 11:58:20,536 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-08 11:58:20,851 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 11:58:21,586 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 11:58:26,068 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 11:58:26,068 - INFO -   AC: 443166.67 DH
+2025-05-08 11:58:26,069 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 11:58:26,069 - INFO -   Force: 218000.00 DH
+2025-05-08 11:58:26,069 - INFO -   Changan: 154888.89 DH
+2025-05-08 11:58:26,069 - INFO -   Iveco: 144133.33 DH
+2025-05-08 11:58:26,070 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 11:58:26,070 - INFO -   Audi: 535764.91 DH
+2025-05-08 11:58:26,071 - INFO -   Porsche: 478112.51 DH
+2025-05-08 11:58:26,071 - INFO -   Tesla: 453932.19 DH
+2025-05-08 11:58:26,071 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 11:58:26,072 - INFO -   Maserati: 420838.98 DH
+2025-05-08 11:58:26,073 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 11:58:26,073 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 11:58:26,073 - INFO -   GMC: 1067142.86 DH
+2025-05-08 11:58:26,073 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 11:58:26,074 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 11:58:27,826 - INFO - Price outliers clipped and log transformation applied
+2025-05-08 11:58:27,837 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 11:58:27,837 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 11:58:27,837 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 11:58:27,837 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 11:58:27,837 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 11:58:27,838 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 11:58:27,838 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 11:58:27,838 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 11:58:27,838 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 11:58:27,838 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 11:58:27,839 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 11:58:27,839 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 11:58:27,840 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 11:58:27,840 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 11:58:27,840 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 11:58:28,735 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-08 11:58:29,963 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-08 11:58:30,329 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-08 11:58:30,648 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-08 11:58:30,997 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-08 11:58:31,378 - INFO - Scaler saved for prediction
+2025-05-08 11:58:31,378 - INFO - Completed smoothed and standardized target encoding
+2025-05-08 11:58:31,449 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-08 11:58:31,449 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-08 11:58:33,311 - INFO - Final dataset shape: (71755, 18)
+2025-05-08 11:58:33,311 - INFO - Preprocessing completed successfully
+2025-05-08 12:05:18,798 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 12:05:18,867 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 12:05:22,787 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 12:05:23,249 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 12:05:23,638 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-08 12:05:23,922 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 12:05:24,578 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 12:05:26,780 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 12:05:26,780 - INFO -   AC: 443166.67 DH
+2025-05-08 12:05:26,780 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 12:05:26,781 - INFO -   Force: 218000.00 DH
+2025-05-08 12:05:26,781 - INFO -   Changan: 154888.89 DH
+2025-05-08 12:05:26,783 - INFO -   Iveco: 144133.33 DH
+2025-05-08 12:05:26,785 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 12:05:26,785 - INFO -   Audi: 535764.91 DH
+2025-05-08 12:05:26,785 - INFO -   Porsche: 478112.51 DH
+2025-05-08 12:05:26,785 - INFO -   Tesla: 453932.19 DH
+2025-05-08 12:05:26,786 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 12:05:26,786 - INFO -   Maserati: 420838.98 DH
+2025-05-08 12:05:26,787 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 12:05:26,787 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 12:05:26,787 - INFO -   GMC: 1067142.86 DH
+2025-05-08 12:05:26,787 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 12:05:26,787 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 12:05:28,593 - INFO - Price outliers clipped and log transformation applied
+2025-05-08 12:05:28,602 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 12:05:28,603 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 12:05:28,603 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 12:05:28,603 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 12:05:28,603 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 12:05:28,604 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 12:05:28,604 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 12:05:28,604 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 12:05:28,605 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 12:05:28,605 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 12:05:28,605 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 12:05:28,606 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 12:05:28,606 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 12:05:28,606 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 12:05:28,606 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 12:05:28,606 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 12:05:28,606 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 12:05:28,606 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 12:05:29,461 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-08 12:05:30,656 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-08 12:05:30,996 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-08 12:05:31,350 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-08 12:05:31,663 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-08 12:05:32,007 - INFO - Scaler saved for prediction
+2025-05-08 12:05:32,007 - INFO - Completed smoothed and standardized target encoding
+2025-05-08 12:05:32,069 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-08 12:05:32,069 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-08 12:05:33,566 - INFO - Final dataset shape: (71755, 18)
+2025-05-08 12:05:33,566 - INFO - Preprocessing completed successfully
+2025-05-08 12:06:17,177 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 12:06:17,243 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 12:06:21,871 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 12:06:22,373 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 12:06:22,795 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-08 12:06:23,079 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 12:06:23,800 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 12:06:25,402 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 12:06:25,403 - INFO -   AC: 443166.67 DH
+2025-05-08 12:06:25,403 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 12:06:25,403 - INFO -   Force: 218000.00 DH
+2025-05-08 12:06:25,403 - INFO -   Changan: 154888.89 DH
+2025-05-08 12:06:25,403 - INFO -   Iveco: 144133.33 DH
+2025-05-08 12:06:25,404 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 12:06:25,404 - INFO -   Audi: 535764.91 DH
+2025-05-08 12:06:25,404 - INFO -   Porsche: 478112.51 DH
+2025-05-08 12:06:25,404 - INFO -   Tesla: 453932.19 DH
+2025-05-08 12:06:25,405 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 12:06:25,405 - INFO -   Maserati: 420838.98 DH
+2025-05-08 12:06:25,405 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 12:06:25,406 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 12:06:25,406 - INFO -   GMC: 1067142.86 DH
+2025-05-08 12:06:25,406 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 12:06:25,406 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 12:06:27,061 - INFO - Price outliers clipped and log transformation applied
+2025-05-08 12:06:27,074 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 12:06:27,075 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 12:06:27,075 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 12:06:27,075 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 12:06:27,075 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 12:06:27,075 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 12:06:27,075 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 12:06:27,075 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 12:06:27,075 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 12:06:27,075 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 12:06:27,075 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 12:06:27,076 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 12:06:27,076 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 12:06:27,076 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 12:06:27,077 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 12:06:27,077 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 12:06:27,077 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 12:06:27,077 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 12:06:27,077 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 12:06:27,078 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 12:06:27,078 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 12:06:27,078 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 12:06:27,078 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 12:06:27,078 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 12:06:27,078 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 12:06:27,078 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 12:06:27,078 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 12:06:27,078 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 12:06:27,079 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 12:06:27,079 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 12:06:27,079 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 12:06:27,079 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 12:06:27,079 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 12:06:27,079 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 12:06:27,079 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 12:06:27,079 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 12:06:27,080 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 12:06:27,080 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 12:06:27,080 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 12:06:27,080 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 12:06:27,080 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 12:06:27,080 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 12:06:27,080 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 12:06:27,080 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 12:06:27,081 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 12:06:27,081 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 12:06:27,081 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 12:06:27,081 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 12:06:27,081 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 12:06:27,081 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 12:06:27,081 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 12:06:27,081 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 12:06:27,081 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 12:06:27,081 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 12:06:27,082 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 12:06:27,082 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 12:06:27,082 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 12:06:27,082 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 12:06:27,082 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 12:06:27,082 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 12:06:27,082 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 12:06:27,082 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 12:06:27,082 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 12:06:27,083 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 12:06:27,083 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 12:06:27,083 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 12:06:27,083 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 12:06:28,093 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-08 12:06:29,219 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-08 12:06:29,561 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-08 12:06:29,882 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-08 12:06:30,220 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-08 12:06:30,565 - INFO - Scaler saved for prediction
+2025-05-08 12:06:30,565 - INFO - Completed smoothed and standardized target encoding
+2025-05-08 12:06:30,631 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-08 12:06:30,632 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-08 12:06:32,091 - INFO - Final dataset shape: (71755, 18)
+2025-05-08 12:06:32,091 - INFO - Preprocessing completed successfully
+2025-05-08 14:19:14,966 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 14:19:15,056 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 14:19:19,879 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 14:19:20,394 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 14:19:20,832 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-08 14:19:21,151 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 14:19:21,969 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 14:19:21,970 - INFO - Safety_Score mean: 2.86
+2025-05-08 14:19:21,970 - INFO - Comfort_Score mean: 2.05
+2025-05-08 14:19:21,971 - INFO - Tech_Score mean: 1.68
+2025-05-08 14:19:24,477 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 14:19:24,477 - INFO -   AC: 443166.67 DH
+2025-05-08 14:19:24,478 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 14:19:24,478 - INFO -   Force: 218000.00 DH
+2025-05-08 14:19:24,478 - INFO -   Changan: 154888.89 DH
+2025-05-08 14:19:24,478 - INFO -   Iveco: 144133.33 DH
+2025-05-08 14:19:24,479 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 14:19:24,479 - INFO -   Audi: 535764.91 DH
+2025-05-08 14:19:24,479 - INFO -   Porsche: 478112.51 DH
+2025-05-08 14:19:24,480 - INFO -   Tesla: 453932.19 DH
+2025-05-08 14:19:24,480 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 14:19:24,480 - INFO -   Maserati: 420838.98 DH
+2025-05-08 14:19:24,481 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 14:19:24,481 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 14:19:24,481 - INFO -   GMC: 1067142.86 DH
+2025-05-08 14:19:24,481 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 14:19:24,481 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 14:19:24,702 - INFO - Price bounds for Premium (group Mercedes-Benz): Lower=52000.0, Upper=580000.0
+2025-05-08 14:19:24,726 - INFO - Price bounds for Premium (group Hyundai): Lower=60540.00000000002, Upper=300000.0
+2025-05-08 14:19:24,748 - INFO - Price bounds for Premium (group Porsche): Lower=220000.0, Upper=1152132.9999999998
+2025-05-08 14:19:24,775 - INFO - Price bounds for Premium (group Volkswagen): Lower=53000.0, Upper=380000.0
+2025-05-08 14:19:24,802 - INFO - Price bounds for Économique (group Fiat): Lower=20000.0, Upper=150000.0
+2025-05-08 14:19:24,828 - INFO - Price bounds for Premium (group Land Rover): Lower=135000.0, Upper=600000.0
+2025-05-08 14:19:24,859 - INFO - Price bounds for Économique (group Renault): Lower=22000.0, Upper=185999.85
+2025-05-08 14:19:24,883 - INFO - Price bounds for Premium (group Jaguar): Lower=92000.00000000001, Upper=443999.9999999995
+2025-05-08 14:19:24,914 - INFO - Price bounds for Économique (group Peugeot): Lower=25000.0, Upper=227799.99999999927
+2025-05-08 14:19:24,939 - INFO - Price bounds for Économique (group Kia): Lower=45000.0, Upper=290000.0
+2025-05-08 14:19:24,966 - INFO - Price bounds for Économique (group Ford): Lower=50000.0, Upper=233199.99999999983
+2025-05-08 14:19:24,991 - INFO - Price bounds for Premium (group Alfa Romeo): Lower=55000.0, Upper=320000.0
+2025-05-08 14:19:25,017 - INFO - Price bounds for Premium (group Audi): Lower=107000.0, Upper=760000.0
+2025-05-08 14:19:25,042 - INFO - Price bounds for Premium (group Nissan): Lower=60000.0, Upper=225000.0
+2025-05-08 14:19:25,066 - INFO - Price bounds for Premium (group Jeep): Lower=145000.0, Upper=330000.0
+2025-05-08 14:19:25,088 - INFO - Price bounds for Premium (group BMW): Lower=75000.0, Upper=450000.0
+2025-05-08 14:19:25,114 - INFO - Price bounds for Économique (group Dacia): Lower=55000.0, Upper=175000.0
+2025-05-08 14:19:25,137 - INFO - Price bounds for Premium (group Skoda): Lower=95000.0, Upper=295000.0
+2025-05-08 14:19:25,162 - INFO - Price bounds for Économique (group Toyota): Lower=30000.0, Upper=260000.0
+2025-05-08 14:19:25,182 - INFO - Price bounds for Premium (group Opel): Lower=66000.0, Upper=230000.0
+2025-05-08 14:19:25,203 - INFO - Price bounds for Premium (group Seat): Lower=50600.00000000002, Upper=280000.0
+2025-05-08 14:19:25,231 - INFO - Price bounds for Économique (group Citroen): Lower=30000.0, Upper=189000.0
+2025-05-08 14:19:25,255 - INFO - Price bounds for Économique (group Honda): Lower=25100.0, Upper=170000.0
+2025-05-08 14:19:25,279 - INFO - Price bounds for Premium (group Volvo): Lower=85000.0, Upper=379900.0
+2025-05-08 14:19:25,297 - INFO - Price bounds for Premium (group Cupra): Lower=345000.0, Upper=439000.0
+2025-05-08 14:19:25,316 - INFO - Price bounds for Économique (group Ssangyong): Lower=34300.0, Upper=116749.99999999997
+2025-05-08 14:19:25,337 - INFO - Price bounds for Luxe (group Bentley): Lower=640000.0, Upper=1770000.0
+2025-05-08 14:19:25,359 - INFO - Price bounds for Économique (group Suzuki): Lower=24000.0, Upper=95000.0
+2025-05-08 14:19:25,381 - INFO - Price bounds for Économique (group Chery): Lower=23250.0, Upper=165000.0
+2025-05-08 14:19:25,401 - INFO - Price bounds for Économique (group Tata): Lower=29499.75, Upper=192475.0
+2025-05-08 14:19:25,421 - INFO - Price bounds for Premium (group Maserati): Lower=237400.0, Upper=656999.9999999997
+2025-05-08 14:19:25,442 - INFO - Price bounds for Économique (group Chevrolet): Lower=30000.0, Upper=128999.99999999977
+2025-05-08 14:19:25,463 - INFO - Price bounds for Premium (group DS): Lower=118000.0, Upper=360000.0
+2025-05-08 14:19:25,480 - INFO - Price bounds for Premium (group Lexus): Lower=60000.00000000001, Upper=910000.0
+2025-05-08 14:19:25,499 - INFO - Price bounds for Premium (group Abarth): Lower=144000.0, Upper=261250.0
+2025-05-08 14:19:25,521 - INFO - Price bounds for Économique (group Mitsubishi): Lower=29000.0, Upper=249000.0
+2025-05-08 14:19:25,541 - INFO - Price bounds for Économique (group Iveco): Lower=130000.0, Upper=189499.99999999997
+2025-05-08 14:19:25,563 - INFO - Price bounds for Économique (group Isuzu): Lower=39800.0, Upper=187499.99999999985
+2025-05-08 14:19:25,581 - INFO - Price bounds for Premium (group Tesla): Lower=379000.0, Upper=552999.9999999999
+2025-05-08 14:19:25,600 - INFO - Price bounds for Économique (group Geely): Lower=25000.0, Upper=239600.0
+2025-05-08 14:19:25,619 - INFO - Price bounds for Économique (group Autres marques économique): Lower=28000.0, Upper=477500.0
+2025-05-08 14:19:25,637 - INFO - Price bounds for Économique (group Autres): Lower=25000.0, Upper=200499.99999999983
+2025-05-08 14:19:25,658 - INFO - Price bounds for Économique (group Zotye): Lower=37500.0, Upper=63749.99999999996
+2025-05-08 14:19:25,678 - INFO - Price bounds for Économique (group DFSK): Lower=61280.0, Upper=204199.99999999997
+2025-05-08 14:19:25,698 - INFO - Price bounds for Premium (group Mini): Lower=60000.0, Upper=240375.0
+2025-05-08 14:19:25,721 - INFO - Price bounds for Économique (group Mahindra): Lower=40000.0, Upper=120000.0
+2025-05-08 14:19:25,740 - INFO - Price bounds for Luxe (group Autres marques luxe): Lower=705000.0, Upper=1564500.0
+2025-05-08 14:19:25,759 - INFO - Price bounds for Premium (group MG): Lower=53000.0, Upper=307499.99999999994
+2025-05-08 14:19:25,781 - INFO - Price bounds for Économique (group Lancia): Lower=65500.0, Upper=165749.99999999997
+2025-05-08 14:19:25,808 - INFO - Price bounds for Économique (group Smart): Lower=68500.0, Upper=177199.9999999999
+2025-05-08 14:19:25,838 - INFO - Price bounds for Économique (group Mazda): Lower=29100.0, Upper=194499.99999999988
+2025-05-08 14:19:25,876 - INFO - Price bounds for Économique (group Daihatsu): Lower=26000.0, Upper=68000.0
+2025-05-08 14:19:25,903 - INFO - Price bounds for Premium (group Dodge): Lower=50000, Upper=356000.0
+2025-05-08 14:19:25,926 - INFO - Price bounds for Économique (group Rover): Lower=20000, Upper=414750.0
+2025-05-08 14:19:25,952 - INFO - Price bounds for Premium (group Cadillac): Lower=105000.0, Upper=835999.9999999969
+2025-05-08 14:19:25,976 - INFO - Price bounds for Premium (group Infiniti): Lower=50000, Upper=132999.99999999997
+2025-05-08 14:19:25,995 - INFO - Price bounds for Économique (group Daewoo): Lower=20000, Upper=38399.99999999999
+2025-05-08 14:19:26,014 - INFO - Price bounds for Économique (group Subaru): Lower=23750.0, Upper=88050.0
+2025-05-08 14:19:26,036 - INFO - Price bounds for Économique (group Chrysler): Lower=31000.0, Upper=262499.9999999999
+2025-05-08 14:19:26,058 - INFO - Price bounds for Économique (group BYD): Lower=29200.0, Upper=42600.0
+2025-05-08 14:19:26,079 - INFO - Price bounds for Économique (group GWM Motors): Lower=41500.0, Upper=233545.0
+2025-05-08 14:19:26,097 - INFO - Price bounds for Premium (group Autres marques premium): Lower=179000.00000000003, Upper=423500.0
+2025-05-08 14:19:26,117 - INFO - Price bounds for Économique (group Changhe): Lower=23400.0, Upper=63799.99999999991
+2025-05-08 14:19:26,135 - INFO - Price bounds for Économique (group Lifan): Lower=28850.0, Upper=39699.99999999999
+2025-05-08 14:19:26,139 - INFO - Price outliers clipped and log transformation applied
+2025-05-08 14:19:26,152 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 14:19:26,152 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 14:19:26,152 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 14:19:26,152 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 14:19:26,152 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 14:19:26,152 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 14:19:26,152 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 14:19:26,152 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 14:19:26,153 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 14:19:26,153 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 14:19:26,153 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 14:19:26,153 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 14:19:26,153 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 14:19:26,153 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 14:19:26,154 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 14:19:26,154 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 14:19:26,156 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 14:19:26,156 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 14:19:26,156 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 14:19:26,156 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 14:19:26,156 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 14:19:26,156 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 14:19:26,156 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 14:19:26,156 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 14:19:27,118 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-08 14:19:29,433 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-08 14:19:30,039 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-08 14:19:30,642 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-08 14:19:31,069 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-08 14:19:31,389 - INFO - Loc_Marque_Modèle_encoded for Rolls-Royce Wraith in Casablanca: 13.0551
+2025-05-08 14:19:31,512 - INFO - Scaler saved for prediction
+2025-05-08 14:19:31,512 - INFO - Completed smoothed and standardized target encoding
+2025-05-08 14:19:31,602 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-08 14:19:31,602 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-08 14:19:33,759 - INFO - Final dataset shape: (71755, 18)
+2025-05-08 14:19:33,759 - INFO - Preprocessing completed successfully
+2025-05-08 14:22:26,967 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 14:22:27,061 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 14:22:32,001 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 14:22:32,575 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 14:22:33,078 - ERROR - Preprocessing failed: 'Group_marque'
+2025-05-08 14:23:11,337 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 14:23:11,411 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 14:23:15,636 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 14:23:16,106 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 14:23:16,520 - ERROR - Preprocessing failed: 'Group_marque'
+2025-05-08 14:45:24,000 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 14:45:24,072 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 14:45:27,987 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 14:45:28,443 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 14:45:28,748 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 14:45:29,397 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 14:45:29,398 - INFO - Safety_Score mean: 2.86
+2025-05-08 14:45:29,398 - INFO - Comfort_Score mean: 2.05
+2025-05-08 14:45:29,398 - INFO - Tech_Score mean: 1.68
+2025-05-08 14:45:29,416 - ERROR - Preprocessing failed: agg function failed [how->mean,dtype->object]
+2025-05-08 14:49:39,689 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 14:49:39,750 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 14:49:43,666 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 14:49:44,105 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 14:49:44,434 - ERROR - Preprocessing failed: 'Group_marque'
+2025-05-08 14:52:17,820 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 14:52:17,883 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 14:52:21,808 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 14:52:22,256 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 14:52:22,587 - INFO - Shape after cleaning Puissance fiscale: (71789, 16)
+2025-05-08 14:52:22,876 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 14:52:23,573 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 14:52:23,574 - INFO - Safety_Score mean: 2.86
+2025-05-08 14:52:23,574 - INFO - Comfort_Score mean: 2.05
+2025-05-08 14:52:23,574 - INFO - Tech_Score mean: 1.68
+2025-05-08 14:52:25,768 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 14:52:25,769 - INFO -   AC: 443166.67 DH
+2025-05-08 14:52:25,769 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 14:52:25,769 - INFO -   Force: 218000.00 DH
+2025-05-08 14:52:25,769 - INFO -   Changan: 154888.89 DH
+2025-05-08 14:52:25,769 - INFO -   Iveco: 144133.33 DH
+2025-05-08 14:52:25,770 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 14:52:25,770 - INFO -   Audi: 535764.91 DH
+2025-05-08 14:52:25,770 - INFO -   Porsche: 478112.51 DH
+2025-05-08 14:52:25,770 - INFO -   Tesla: 453932.19 DH
+2025-05-08 14:52:25,770 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 14:52:25,771 - INFO -   Maserati: 420838.98 DH
+2025-05-08 14:52:25,771 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 14:52:25,771 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 14:52:25,772 - INFO -   GMC: 1067142.86 DH
+2025-05-08 14:52:25,772 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 14:52:25,772 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 14:52:25,982 - INFO - Price bounds for Premium (group Mercedes-Benz): Lower=52000.0, Upper=580000.0
+2025-05-08 14:52:26,005 - INFO - Price bounds for Premium (group Hyundai): Lower=60540.00000000002, Upper=300000.0
+2025-05-08 14:52:26,023 - INFO - Price bounds for Premium (group Porsche): Lower=220000.0, Upper=1152132.9999999998
+2025-05-08 14:52:26,048 - INFO - Price bounds for Premium (group Volkswagen): Lower=53000.0, Upper=380000.0
+2025-05-08 14:52:26,070 - INFO - Price bounds for Économique (group Fiat): Lower=20000.0, Upper=150000.0
+2025-05-08 14:52:26,089 - INFO - Price bounds for Premium (group Land Rover): Lower=135000.0, Upper=600000.0
+2025-05-08 14:52:26,114 - INFO - Price bounds for Économique (group Renault): Lower=22000.0, Upper=185999.85
+2025-05-08 14:52:26,130 - INFO - Price bounds for Premium (group Jaguar): Lower=92000.00000000001, Upper=443999.9999999995
+2025-05-08 14:52:26,153 - INFO - Price bounds for Économique (group Peugeot): Lower=25000.0, Upper=227799.99999999927
+2025-05-08 14:52:26,173 - INFO - Price bounds for Économique (group Kia): Lower=45000.0, Upper=290000.0
+2025-05-08 14:52:26,195 - INFO - Price bounds for Économique (group Ford): Lower=50000.0, Upper=233199.99999999983
+2025-05-08 14:52:26,215 - INFO - Price bounds for Premium (group Alfa Romeo): Lower=55000.0, Upper=320000.0
+2025-05-08 14:52:26,235 - INFO - Price bounds for Premium (group Audi): Lower=107000.0, Upper=760000.0
+2025-05-08 14:52:26,254 - INFO - Price bounds for Premium (group Nissan): Lower=60000.0, Upper=225000.0
+2025-05-08 14:52:26,274 - INFO - Price bounds for Premium (group Jeep): Lower=145000.0, Upper=330000.0
+2025-05-08 14:52:26,295 - INFO - Price bounds for Premium (group BMW): Lower=75000.0, Upper=450000.0
+2025-05-08 14:52:26,320 - INFO - Price bounds for Économique (group Dacia): Lower=55000.0, Upper=175000.0
+2025-05-08 14:52:26,340 - INFO - Price bounds for Premium (group Skoda): Lower=95000.0, Upper=295000.0
+2025-05-08 14:52:26,364 - INFO - Price bounds for Économique (group Toyota): Lower=30000.0, Upper=260000.0
+2025-05-08 14:52:26,386 - INFO - Price bounds for Premium (group Opel): Lower=66000.0, Upper=230000.0
+2025-05-08 14:52:26,407 - INFO - Price bounds for Premium (group Seat): Lower=50600.00000000002, Upper=280000.0
+2025-05-08 14:52:26,428 - INFO - Price bounds for Économique (group Citroen): Lower=30000.0, Upper=189000.0
+2025-05-08 14:52:26,446 - INFO - Price bounds for Économique (group Honda): Lower=25100.0, Upper=170000.0
+2025-05-08 14:52:26,463 - INFO - Price bounds for Premium (group Volvo): Lower=85000.0, Upper=379900.0
+2025-05-08 14:52:26,481 - INFO - Price bounds for Premium (group Cupra): Lower=345000.0, Upper=439000.0
+2025-05-08 14:52:26,498 - INFO - Price bounds for Économique (group Ssangyong): Lower=34300.0, Upper=116749.99999999997
+2025-05-08 14:52:26,516 - INFO - Price bounds for Luxe (group Bentley): Lower=640000.0, Upper=1770000.0
+2025-05-08 14:52:26,535 - INFO - Price bounds for Économique (group Suzuki): Lower=24000.0, Upper=95000.0
+2025-05-08 14:52:26,554 - INFO - Price bounds for Économique (group Chery): Lower=23250.0, Upper=165000.0
+2025-05-08 14:52:26,573 - INFO - Price bounds for Économique (group Tata): Lower=29499.75, Upper=192475.0
+2025-05-08 14:52:26,591 - INFO - Price bounds for Premium (group Maserati): Lower=237400.0, Upper=656999.9999999997
+2025-05-08 14:52:26,608 - INFO - Price bounds for Économique (group Chevrolet): Lower=30000.0, Upper=128999.99999999977
+2025-05-08 14:52:26,624 - INFO - Price bounds for Premium (group DS): Lower=118000.0, Upper=360000.0
+2025-05-08 14:52:26,642 - INFO - Price bounds for Premium (group Lexus): Lower=60000.00000000001, Upper=910000.0
+2025-05-08 14:52:26,659 - INFO - Price bounds for Premium (group Abarth): Lower=144000.0, Upper=261250.0
+2025-05-08 14:52:26,679 - INFO - Price bounds for Économique (group Mitsubishi): Lower=29000.0, Upper=249000.0
+2025-05-08 14:52:26,697 - INFO - Price bounds for Économique (group Iveco): Lower=130000.0, Upper=189499.99999999997
+2025-05-08 14:52:26,714 - INFO - Price bounds for Économique (group Isuzu): Lower=39800.0, Upper=187499.99999999985
+2025-05-08 14:52:26,731 - INFO - Price bounds for Premium (group Tesla): Lower=379000.0, Upper=552999.9999999999
+2025-05-08 14:52:26,749 - INFO - Price bounds for Économique (group Geely): Lower=25000.0, Upper=239600.0
+2025-05-08 14:52:26,767 - INFO - Price bounds for Économique (group Autres marques économique): Lower=28000.0, Upper=477500.0
+2025-05-08 14:52:26,784 - INFO - Price bounds for Économique (group Autres): Lower=25000.0, Upper=200499.99999999983
+2025-05-08 14:52:26,801 - INFO - Price bounds for Économique (group Zotye): Lower=37500.0, Upper=63749.99999999996
+2025-05-08 14:52:26,819 - INFO - Price bounds for Économique (group DFSK): Lower=61280.0, Upper=204199.99999999997
+2025-05-08 14:52:26,837 - INFO - Price bounds for Premium (group Mini): Lower=60000.0, Upper=240375.0
+2025-05-08 14:52:26,855 - INFO - Price bounds for Économique (group Mahindra): Lower=40000.0, Upper=120000.0
+2025-05-08 14:52:26,873 - INFO - Price bounds for Luxe (group Autres marques luxe): Lower=705000.0, Upper=1564500.0
+2025-05-08 14:52:26,891 - INFO - Price bounds for Premium (group MG): Lower=53000.0, Upper=307499.99999999994
+2025-05-08 14:52:26,909 - INFO - Price bounds for Économique (group Lancia): Lower=65500.0, Upper=165749.99999999997
+2025-05-08 14:52:26,927 - INFO - Price bounds for Économique (group Smart): Lower=68500.0, Upper=177199.9999999999
+2025-05-08 14:52:26,946 - INFO - Price bounds for Économique (group Mazda): Lower=29100.0, Upper=194499.99999999988
+2025-05-08 14:52:26,963 - INFO - Price bounds for Économique (group Daihatsu): Lower=26000.0, Upper=68000.0
+2025-05-08 14:52:26,981 - INFO - Price bounds for Premium (group Dodge): Lower=50000, Upper=356000.0
+2025-05-08 14:52:26,997 - INFO - Price bounds for Économique (group Rover): Lower=20000, Upper=414750.0
+2025-05-08 14:52:27,013 - INFO - Price bounds for Premium (group Cadillac): Lower=105000.0, Upper=835999.9999999969
+2025-05-08 14:52:27,031 - INFO - Price bounds for Premium (group Infiniti): Lower=50000, Upper=132999.99999999997
+2025-05-08 14:52:27,049 - INFO - Price bounds for Économique (group Daewoo): Lower=20000, Upper=38399.99999999999
+2025-05-08 14:52:27,064 - INFO - Price bounds for Économique (group Subaru): Lower=23750.0, Upper=88050.0
+2025-05-08 14:52:27,081 - INFO - Price bounds for Économique (group Chrysler): Lower=31000.0, Upper=262499.9999999999
+2025-05-08 14:52:27,098 - INFO - Price bounds for Économique (group BYD): Lower=29200.0, Upper=42600.0
+2025-05-08 14:52:27,116 - INFO - Price bounds for Économique (group GWM Motors): Lower=41500.0, Upper=233545.0
+2025-05-08 14:52:27,133 - INFO - Price bounds for Premium (group Autres marques premium): Lower=179000.00000000003, Upper=423500.0
+2025-05-08 14:52:27,152 - INFO - Price bounds for Économique (group Changhe): Lower=23400.0, Upper=63799.99999999991
+2025-05-08 14:52:27,171 - INFO - Price bounds for Économique (group Lifan): Lower=28850.0, Upper=39699.99999999999
+2025-05-08 14:52:27,182 - INFO - Price outliers clipped and log transformation applied
+2025-05-08 14:52:27,192 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 14:52:27,192 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 14:52:27,192 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 14:52:27,192 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 14:52:27,192 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 14:52:27,192 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 14:52:27,192 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 14:52:27,192 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 14:52:27,192 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 14:52:27,192 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 14:52:27,192 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 14:52:27,193 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 14:52:27,193 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 14:52:27,193 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 14:52:27,193 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 14:52:27,193 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 14:52:27,193 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 14:52:27,194 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 14:52:27,194 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 14:52:27,195 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 14:52:27,195 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 14:52:27,195 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 14:52:27,196 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 14:52:27,200 - INFO - Puissance fiscale stats for Luxe group: Min=6, Max=100, Mean=25.32
+2025-05-08 14:52:28,022 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-08 14:52:29,098 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-08 14:52:29,442 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-08 14:52:29,760 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-08 14:52:30,049 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-08 14:52:30,301 - INFO - Loc_Marque_Modèle_encoded for Rolls-Royce Wraith in Casablanca: 13.0551
+2025-05-08 14:52:30,407 - INFO - Scaler saved for prediction
+2025-05-08 14:52:30,407 - INFO - Completed smoothed and standardized target encoding
+2025-05-08 14:52:30,475 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-08 14:52:30,475 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-08 14:52:31,864 - INFO - Final dataset shape: (71755, 18)
+2025-05-08 14:52:31,864 - INFO - Preprocessing completed successfully
+2025-05-08 15:00:16,957 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 15:00:17,028 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 15:00:20,949 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 15:00:21,406 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 15:00:21,750 - INFO - Shape after cleaning Puissance fiscale: (71789, 16)
+2025-05-08 15:00:22,030 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 15:00:22,689 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 15:00:22,689 - INFO - Safety_Score mean: 2.86
+2025-05-08 15:00:22,689 - INFO - Comfort_Score mean: 2.05
+2025-05-08 15:00:22,690 - INFO - Tech_Score mean: 1.68
+2025-05-08 15:00:24,809 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 15:00:24,809 - INFO -   AC: 443166.67 DH
+2025-05-08 15:00:24,810 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 15:00:24,810 - INFO -   Force: 218000.00 DH
+2025-05-08 15:00:24,810 - INFO -   Changan: 154888.89 DH
+2025-05-08 15:00:24,810 - INFO -   Iveco: 144133.33 DH
+2025-05-08 15:00:24,811 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 15:00:24,811 - INFO -   Audi: 535764.91 DH
+2025-05-08 15:00:24,811 - INFO -   Porsche: 478112.51 DH
+2025-05-08 15:00:24,811 - INFO -   Tesla: 453932.19 DH
+2025-05-08 15:00:24,812 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 15:00:24,812 - INFO -   Maserati: 420838.98 DH
+2025-05-08 15:00:24,812 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 15:00:24,813 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 15:00:24,814 - INFO -   GMC: 1067142.86 DH
+2025-05-08 15:00:24,814 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 15:00:24,814 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 15:00:24,989 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 15:00:24,989 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 15:00:24,989 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 15:00:24,989 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 15:00:24,989 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 15:00:24,989 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 15:00:24,989 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 15:00:24,989 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 15:00:24,989 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 15:00:24,989 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 15:00:24,989 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 15:00:24,989 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 15:00:24,990 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 15:00:24,990 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 15:00:24,990 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 15:00:24,990 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 15:00:24,990 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 15:00:24,990 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 15:00:24,991 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 15:00:24,991 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 15:00:24,992 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 15:00:24,992 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 15:00:24,992 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 15:00:25,618 - ERROR - Preprocessing failed: could not convert string to float: '140 000 - 149 999'
+2025-05-08 15:09:17,936 - INFO - Initial dataset shape: (78398, 16)
+2025-05-08 15:09:18,023 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-08 15:09:22,584 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-08 15:09:23,069 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-08 15:09:24,725 - INFO - Shape after handling Kilométrage: (71789, 16)
+2025-05-08 15:09:25,251 - INFO - Shape after cleaning Puissance fiscale: (71789, 16)
+2025-05-08 15:09:25,668 - INFO - Shape after handling État: (71789, 16)
+2025-05-08 15:09:26,593 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-08 15:09:26,594 - INFO - Safety_Score mean: 2.86
+2025-05-08 15:09:26,594 - INFO - Comfort_Score mean: 2.05
+2025-05-08 15:09:26,594 - INFO - Tech_Score mean: 1.68
+2025-05-08 15:09:29,031 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-08 15:09:29,032 - INFO -   AC: 443166.67 DH
+2025-05-08 15:09:29,032 - INFO -   Lincoln: 350000.00 DH
+2025-05-08 15:09:29,032 - INFO -   Force: 218000.00 DH
+2025-05-08 15:09:29,032 - INFO -   Changan: 154888.89 DH
+2025-05-08 15:09:29,032 - INFO -   Iveco: 144133.33 DH
+2025-05-08 15:09:29,033 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-08 15:09:29,033 - INFO -   Audi: 535764.91 DH
+2025-05-08 15:09:29,033 - INFO -   Porsche: 478112.51 DH
+2025-05-08 15:09:29,033 - INFO -   Tesla: 453932.19 DH
+2025-05-08 15:09:29,034 - INFO -   Land Rover: 424025.83 DH
+2025-05-08 15:09:29,034 - INFO -   Maserati: 420838.98 DH
+2025-05-08 15:09:29,034 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-08 15:09:29,035 - INFO -   Bentley: 1202653.06 DH
+2025-05-08 15:09:29,035 - INFO -   GMC: 1067142.86 DH
+2025-05-08 15:09:29,035 - INFO -   Ferrari: 930000.00 DH
+2025-05-08 15:09:29,035 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-08 15:09:29,253 - INFO - Brand: AC, Classified as: Économique
+2025-05-08 15:09:29,253 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: Audi, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: Autres, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: BMW, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: BYD, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-08 15:09:29,254 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: Changan, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Chery, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-08 15:09:29,254 - INFO - Brand: DS, Classified as: Premium
+2025-05-08 15:09:29,254 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-08 15:09:29,255 - INFO - Brand: Faw, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-08 15:09:29,255 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Force, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Ford, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Foton, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-08 15:09:29,255 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Geely, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Honda, Classified as: Économique
+2025-05-08 15:09:29,255 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-08 15:09:29,255 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-08 15:09:29,255 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Kia, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Lada, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: MG, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-08 15:09:29,256 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-08 15:09:29,256 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Mini, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Opel, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Renault, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-08 15:09:29,257 - INFO - Brand: Rover, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: SERES, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Seat, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-08 15:09:29,257 - INFO - Brand: Smart, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-08 15:09:29,257 - INFO - Brand: Tata, Classified as: Économique
+2025-05-08 15:09:29,258 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-08 15:09:29,258 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-08 15:09:29,258 - INFO - Brand: UFO, Classified as: Économique
+2025-05-08 15:09:29,258 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-08 15:09:29,258 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-08 15:09:29,258 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-08 15:09:29,803 - ERROR - Preprocessing failed: could not convert string to float: '1980 ou plus ancien'
+2025-05-09 16:09:29,511 - INFO - Initial dataset shape: (78398, 16)
+2025-05-09 16:09:29,642 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-09 16:09:35,244 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-09 16:09:36,337 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-09 16:09:37,517 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-09 16:09:38,118 - INFO - Shape after handling État: (71789, 16)
+2025-05-09 16:09:39,332 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-09 16:09:48,406 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-09 16:09:48,407 - INFO -   AC: 443166.67 DH
+2025-05-09 16:09:48,409 - INFO -   Lincoln: 350000.00 DH
+2025-05-09 16:09:48,409 - INFO -   Force: 218000.00 DH
+2025-05-09 16:09:48,409 - INFO -   Changan: 154888.89 DH
+2025-05-09 16:09:48,410 - INFO -   Iveco: 144133.33 DH
+2025-05-09 16:09:48,414 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-09 16:09:48,415 - INFO -   Audi: 535764.91 DH
+2025-05-09 16:09:48,416 - INFO -   Porsche: 478112.51 DH
+2025-05-09 16:09:48,416 - INFO -   Tesla: 453932.19 DH
+2025-05-09 16:09:48,417 - INFO -   Land Rover: 424025.83 DH
+2025-05-09 16:09:48,417 - INFO -   Maserati: 420838.98 DH
+2025-05-09 16:09:48,422 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-09 16:09:48,423 - INFO -   Bentley: 1202653.06 DH
+2025-05-09 16:09:48,424 - INFO -   GMC: 1067142.86 DH
+2025-05-09 16:09:48,425 - INFO -   Ferrari: 930000.00 DH
+2025-05-09 16:09:48,427 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-09 16:09:51,938 - INFO - Price outliers clipped and log transformation applied
+2025-05-09 16:09:51,953 - INFO - Brand: AC, Classified as: Économique
+2025-05-09 16:09:51,953 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-09 16:09:51,953 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-09 16:09:51,953 - INFO - Brand: Audi, Classified as: Premium
+2025-05-09 16:09:51,953 - INFO - Brand: Autres, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: BMW, Classified as: Premium
+2025-05-09 16:09:51,954 - INFO - Brand: BYD, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-09 16:09:51,954 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-09 16:09:51,954 - INFO - Brand: Changan, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Chery, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-09 16:09:51,954 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-09 16:09:51,955 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: DS, Classified as: Premium
+2025-05-09 16:09:51,955 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-09 16:09:51,955 - INFO - Brand: Faw, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-09 16:09:51,955 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Force, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Ford, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Foton, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-09 16:09:51,955 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Geely, Classified as: Économique
+2025-05-09 16:09:51,955 - INFO - Brand: Honda, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Kia, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Lada, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-09 16:09:51,956 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-09 16:09:51,956 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-09 16:09:51,957 - INFO - Brand: MG, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-09 16:09:51,957 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-09 16:09:51,957 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Mini, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-09 16:09:51,957 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Opel, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-09 16:09:51,957 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-09 16:09:51,957 - INFO - Brand: Renault, Classified as: Économique
+2025-05-09 16:09:51,957 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-09 16:09:51,957 - INFO - Brand: Rover, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: SERES, Classified as: Premium
+2025-05-09 16:09:51,958 - INFO - Brand: Seat, Classified as: Premium
+2025-05-09 16:09:51,958 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-09 16:09:51,958 - INFO - Brand: Smart, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: Tata, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-09 16:09:51,958 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: UFO, Classified as: Économique
+2025-05-09 16:09:51,958 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-09 16:09:51,958 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-09 16:09:51,959 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-09 16:09:53,624 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-09 16:09:55,312 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-09 16:09:55,732 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-09 16:09:56,309 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-09 16:09:56,844 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-09 16:09:57,424 - INFO - Scaler saved for prediction
+2025-05-09 16:09:57,424 - INFO - Completed smoothed and standardized target encoding
+2025-05-09 16:09:57,516 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-09 16:09:57,516 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-09 16:09:59,444 - INFO - Final dataset shape: (71755, 18)
+2025-05-09 16:09:59,444 - INFO - Preprocessing completed successfully
+2025-05-09 16:59:24,192 - INFO - Initial dataset shape: (78398, 16)
+2025-05-09 16:59:24,338 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-09 16:59:48,874 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-09 16:59:49,974 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-09 16:59:55,659 - INFO - Shape after handling Kilométrage: (71789, 16)
+2025-05-09 16:59:57,364 - INFO - Shape after cleaning Puissance fiscale: (71789, 16)
+2025-05-09 16:59:58,858 - INFO - Shape after handling État: (71789, 16)
+2025-05-09 17:00:00,991 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-09 17:00:00,992 - INFO - Safety_Score mean: 2.86
+2025-05-09 17:00:00,994 - INFO - Comfort_Score mean: 2.05
+2025-05-09 17:00:00,995 - INFO - Tech_Score mean: 1.68
+2025-05-09 17:00:04,632 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-09 17:00:04,633 - INFO -   AC: 443166.67 DH
+2025-05-09 17:00:04,633 - INFO -   Lincoln: 350000.00 DH
+2025-05-09 17:00:04,634 - INFO -   Force: 218000.00 DH
+2025-05-09 17:00:04,634 - INFO -   Changan: 154888.89 DH
+2025-05-09 17:00:04,634 - INFO -   Iveco: 144133.33 DH
+2025-05-09 17:00:04,636 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-09 17:00:04,637 - INFO -   Audi: 535764.91 DH
+2025-05-09 17:00:04,638 - INFO -   Porsche: 478112.51 DH
+2025-05-09 17:00:04,639 - INFO -   Tesla: 453932.19 DH
+2025-05-09 17:00:04,639 - INFO -   Land Rover: 424025.83 DH
+2025-05-09 17:00:04,640 - INFO -   Maserati: 420838.98 DH
+2025-05-09 17:00:04,643 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-09 17:00:04,644 - INFO -   Bentley: 1202653.06 DH
+2025-05-09 17:00:04,644 - INFO -   GMC: 1067142.86 DH
+2025-05-09 17:00:04,645 - INFO -   Ferrari: 930000.00 DH
+2025-05-09 17:00:04,646 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-09 17:00:05,086 - INFO - Brand: AC, Classified as: Économique
+2025-05-09 17:00:05,086 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-09 17:00:05,086 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-09 17:00:05,086 - INFO - Brand: Audi, Classified as: Premium
+2025-05-09 17:00:05,086 - INFO - Brand: Autres, Classified as: Économique
+2025-05-09 17:00:05,086 - INFO - Brand: BMW, Classified as: Premium
+2025-05-09 17:00:05,086 - INFO - Brand: BYD, Classified as: Économique
+2025-05-09 17:00:05,086 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-09 17:00:05,086 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-09 17:00:05,086 - INFO - Brand: Changan, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Chery, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-09 17:00:05,087 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: DS, Classified as: Premium
+2025-05-09 17:00:05,087 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-09 17:00:05,087 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-09 17:00:05,088 - INFO - Brand: Faw, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-09 17:00:05,088 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: Force, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: Ford, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: Foton, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-09 17:00:05,088 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: Geely, Classified as: Économique
+2025-05-09 17:00:05,088 - INFO - Brand: Honda, Classified as: Économique
+2025-05-09 17:00:05,089 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-09 17:00:05,089 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-09 17:00:05,089 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-09 17:00:05,089 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-09 17:00:05,089 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-09 17:00:05,089 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-09 17:00:05,089 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-09 17:00:05,089 - INFO - Brand: Kia, Classified as: Économique
+2025-05-09 17:00:05,089 - INFO - Brand: Lada, Classified as: Économique
+2025-05-09 17:00:05,089 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-09 17:00:05,089 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-09 17:00:05,089 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-09 17:00:05,090 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-09 17:00:05,090 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-09 17:00:05,090 - INFO - Brand: MG, Classified as: Premium
+2025-05-09 17:00:05,090 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-09 17:00:05,090 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-09 17:00:05,090 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-09 17:00:05,090 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-09 17:00:05,090 - INFO - Brand: Mini, Classified as: Premium
+2025-05-09 17:00:05,090 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-09 17:00:05,090 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-09 17:00:05,091 - INFO - Brand: Opel, Classified as: Premium
+2025-05-09 17:00:05,091 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-09 17:00:05,091 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-09 17:00:05,091 - INFO - Brand: Renault, Classified as: Économique
+2025-05-09 17:00:05,091 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-09 17:00:05,091 - INFO - Brand: Rover, Classified as: Économique
+2025-05-09 17:00:05,091 - INFO - Brand: SERES, Classified as: Premium
+2025-05-09 17:00:05,091 - INFO - Brand: Seat, Classified as: Premium
+2025-05-09 17:00:05,091 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-09 17:00:05,091 - INFO - Brand: Smart, Classified as: Économique
+2025-05-09 17:00:05,091 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-09 17:00:05,091 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-09 17:00:05,092 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-09 17:00:05,092 - INFO - Brand: Tata, Classified as: Économique
+2025-05-09 17:00:05,092 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-09 17:00:05,092 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-09 17:00:05,092 - INFO - Brand: UFO, Classified as: Économique
+2025-05-09 17:00:05,092 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-09 17:00:05,092 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-09 17:00:05,092 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-09 17:00:06,771 - ERROR - Preprocessing failed: could not convert string to float: '1980 ou plus ancien'
+2025-05-09 17:47:56,618 - INFO - Initial dataset shape: (78398, 16)
+2025-05-09 17:47:56,738 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-09 17:48:02,888 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-09 17:48:03,640 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-09 17:48:05,893 - INFO - Shape after handling Kilométrage: (71789, 16)
+2025-05-09 17:48:06,344 - INFO - Shape after cleaning Puissance fiscale: (71789, 16)
+2025-05-09 17:48:06,777 - INFO - Shape after handling État: (71789, 16)
+2025-05-09 17:48:07,798 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-09 17:48:07,798 - INFO - Safety_Score mean: 2.86
+2025-05-09 17:48:07,798 - INFO - Comfort_Score mean: 2.05
+2025-05-09 17:48:07,798 - INFO - Tech_Score mean: 1.68
+2025-05-09 17:48:10,559 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-09 17:48:10,559 - INFO -   AC: 443166.67 DH
+2025-05-09 17:48:10,559 - INFO -   Lincoln: 350000.00 DH
+2025-05-09 17:48:10,559 - INFO -   Force: 218000.00 DH
+2025-05-09 17:48:10,559 - INFO -   Changan: 154888.89 DH
+2025-05-09 17:48:10,559 - INFO -   Iveco: 144133.33 DH
+2025-05-09 17:48:10,566 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-09 17:48:10,566 - INFO -   Audi: 535764.91 DH
+2025-05-09 17:48:10,566 - INFO -   Porsche: 478112.51 DH
+2025-05-09 17:48:10,566 - INFO -   Tesla: 453932.19 DH
+2025-05-09 17:48:10,566 - INFO -   Land Rover: 424025.83 DH
+2025-05-09 17:48:10,566 - INFO -   Maserati: 420838.98 DH
+2025-05-09 17:48:10,568 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-09 17:48:10,568 - INFO -   Bentley: 1202653.06 DH
+2025-05-09 17:48:10,571 - INFO -   GMC: 1067142.86 DH
+2025-05-09 17:48:10,571 - INFO -   Ferrari: 930000.00 DH
+2025-05-09 17:48:10,571 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-09 17:48:10,951 - INFO - Brand: AC, Classified as: Économique
+2025-05-09 17:48:10,951 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-09 17:48:10,951 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-09 17:48:10,951 - INFO - Brand: Audi, Classified as: Premium
+2025-05-09 17:48:10,952 - INFO - Brand: Autres, Classified as: Économique
+2025-05-09 17:48:10,952 - INFO - Brand: BMW, Classified as: Premium
+2025-05-09 17:48:10,952 - INFO - Brand: BYD, Classified as: Économique
+2025-05-09 17:48:10,952 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-09 17:48:10,952 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-09 17:48:10,952 - INFO - Brand: Changan, Classified as: Économique
+2025-05-09 17:48:10,952 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-09 17:48:10,952 - INFO - Brand: Chery, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-09 17:48:10,953 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: DS, Classified as: Premium
+2025-05-09 17:48:10,953 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-09 17:48:10,953 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-09 17:48:10,953 - INFO - Brand: Faw, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-09 17:48:10,954 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Force, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Ford, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Foton, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-09 17:48:10,954 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Geely, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Honda, Classified as: Économique
+2025-05-09 17:48:10,954 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-09 17:48:10,954 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-09 17:48:10,955 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-09 17:48:10,955 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-09 17:48:10,955 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-09 17:48:10,955 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-09 17:48:10,955 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-09 17:48:10,955 - INFO - Brand: Kia, Classified as: Économique
+2025-05-09 17:48:10,955 - INFO - Brand: Lada, Classified as: Économique
+2025-05-09 17:48:10,955 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-09 17:48:10,955 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-09 17:48:10,955 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-09 17:48:10,955 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-09 17:48:10,955 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-09 17:48:10,956 - INFO - Brand: MG, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-09 17:48:10,956 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-09 17:48:10,956 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Mini, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-09 17:48:10,956 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Opel, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-09 17:48:10,956 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-09 17:48:10,956 - INFO - Brand: Renault, Classified as: Économique
+2025-05-09 17:48:10,956 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-09 17:48:10,957 - INFO - Brand: Rover, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: SERES, Classified as: Premium
+2025-05-09 17:48:10,957 - INFO - Brand: Seat, Classified as: Premium
+2025-05-09 17:48:10,957 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-09 17:48:10,957 - INFO - Brand: Smart, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: Tata, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-09 17:48:10,957 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: UFO, Classified as: Économique
+2025-05-09 17:48:10,957 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-09 17:48:10,957 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-09 17:48:10,957 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-09 17:48:11,741 - ERROR - Preprocessing failed: could not convert string to float: '1980 ou plus ancien'
+2025-05-09 17:49:10,141 - INFO - Initial dataset shape: (78398, 16)
+2025-05-09 17:49:10,303 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-09 17:49:18,222 - INFO - Shape after handling Marque and Modèle: (71977, 16)
+2025-05-09 17:49:18,937 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-09 17:49:19,503 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-09 17:49:19,945 - INFO - Shape after handling État: (71789, 16)
+2025-05-09 17:49:21,075 - INFO - Shape after handling Équipements: (71789, 19)
+2025-05-09 17:49:24,775 - INFO - Top 5 brands in Économique cluster by price:
+2025-05-09 17:49:24,776 - INFO -   AC: 443166.67 DH
+2025-05-09 17:49:24,777 - INFO -   Lincoln: 350000.00 DH
+2025-05-09 17:49:24,777 - INFO -   Force: 218000.00 DH
+2025-05-09 17:49:24,778 - INFO -   Changan: 154888.89 DH
+2025-05-09 17:49:24,779 - INFO -   Iveco: 144133.33 DH
+2025-05-09 17:49:24,781 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-09 17:49:24,783 - INFO -   Audi: 535764.91 DH
+2025-05-09 17:49:24,785 - INFO -   Porsche: 478112.51 DH
+2025-05-09 17:49:24,785 - INFO -   Tesla: 453932.19 DH
+2025-05-09 17:49:24,785 - INFO -   Land Rover: 424025.83 DH
+2025-05-09 17:49:24,787 - INFO -   Maserati: 420838.98 DH
+2025-05-09 17:49:24,792 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-09 17:49:24,793 - INFO -   Bentley: 1202653.06 DH
+2025-05-09 17:49:24,793 - INFO -   GMC: 1067142.86 DH
+2025-05-09 17:49:24,795 - INFO -   Ferrari: 930000.00 DH
+2025-05-09 17:49:24,796 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-09 17:49:27,708 - INFO - Price outliers clipped and log transformation applied
+2025-05-09 17:49:27,741 - INFO - Brand: AC, Classified as: Économique
+2025-05-09 17:49:27,741 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-09 17:49:27,741 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-09 17:49:27,741 - INFO - Brand: Audi, Classified as: Premium
+2025-05-09 17:49:27,741 - INFO - Brand: Autres, Classified as: Économique
+2025-05-09 17:49:27,741 - INFO - Brand: BMW, Classified as: Premium
+2025-05-09 17:49:27,742 - INFO - Brand: BYD, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-09 17:49:27,742 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-09 17:49:27,742 - INFO - Brand: Changan, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Changhe, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Chery, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Chevrolet, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Chrysler, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Citroen, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-09 17:49:27,742 - INFO - Brand: DFSK, Classified as: Économique
+2025-05-09 17:49:27,742 - INFO - Brand: DS, Classified as: Premium
+2025-05-09 17:49:27,743 - INFO - Brand: Dacia, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Daewoo, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Daihatsu, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-09 17:49:27,743 - INFO - Brand: Faw, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-09 17:49:27,743 - INFO - Brand: Fiat, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Force, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Ford, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Foton, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: GAZ, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-09 17:49:27,743 - INFO - Brand: GWM Motors, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Geely, Classified as: Économique
+2025-05-09 17:49:27,743 - INFO - Brand: Honda, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Isuzu, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Iveco, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Kia, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Lada, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Lancia, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-09 17:49:27,744 - INFO - Brand: Lifan, Classified as: Économique
+2025-05-09 17:49:27,744 - INFO - Brand: Lincoln, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: MG, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Mahindra, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Mazda, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Mini, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Mitsubishi, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Opel, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Peugeot, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-09 17:49:27,745 - INFO - Brand: Renault, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-09 17:49:27,745 - INFO - Brand: Rover, Classified as: Économique
+2025-05-09 17:49:27,745 - INFO - Brand: SERES, Classified as: Premium
+2025-05-09 17:49:27,746 - INFO - Brand: Seat, Classified as: Premium
+2025-05-09 17:49:27,746 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-09 17:49:27,746 - INFO - Brand: Smart, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: Ssangyong, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: Subaru, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: Suzuki, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: Tata, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-09 17:49:27,746 - INFO - Brand: Toyota, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: UFO, Classified as: Économique
+2025-05-09 17:49:27,746 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-09 17:49:27,746 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-09 17:49:27,746 - INFO - Brand: Zotye, Classified as: Économique
+2025-05-09 17:49:29,205 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-09 17:49:30,917 - INFO - Shape after handling Kilométrage: (71789, 21)
+2025-05-09 17:49:31,377 - INFO - Shape after handling Année-Modèle: (71789, 21)
+2025-05-09 17:49:31,780 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-09 17:49:32,208 - INFO - Shape after handling Première main: (71755, 21)
+2025-05-09 17:49:32,719 - INFO - Scaler saved for prediction
+2025-05-09 17:49:32,719 - INFO - Completed smoothed and standardized target encoding
+2025-05-09 17:49:32,809 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-09 17:49:32,809 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-09 17:49:35,170 - INFO - Final dataset shape: (71755, 18)
+2025-05-09 17:49:35,170 - INFO - Preprocessing completed successfully
+2025-05-15 05:17:56,276 - INFO - Initial dataset shape: (78398, 16)
+2025-05-15 05:17:56,323 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-15 05:17:59,446 - INFO - Shape after handling Marque and Mod�le: (71977, 16)
+2025-05-15 05:17:59,806 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-15 05:18:00,102 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-15 05:18:00,355 - INFO - Shape after handling �tat: (71789, 16)
+2025-05-15 05:18:00,849 - INFO - Shape after handling �quipements: (71789, 19)
+2025-05-15 05:18:02,366 - INFO - Top 5 brands in �conomique cluster by price:
+2025-05-15 05:18:02,366 - INFO -   AC: 443166.67 DH
+2025-05-15 05:18:02,366 - INFO -   Lincoln: 350000.00 DH
+2025-05-15 05:18:02,366 - INFO -   Force: 218000.00 DH
+2025-05-15 05:18:02,366 - INFO -   Changan: 154888.89 DH
+2025-05-15 05:18:02,366 - INFO -   Iveco: 144133.33 DH
+2025-05-15 05:18:02,366 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-15 05:18:02,366 - INFO -   Audi: 535764.91 DH
+2025-05-15 05:18:02,366 - INFO -   Porsche: 478112.51 DH
+2025-05-15 05:18:02,366 - INFO -   Tesla: 453932.19 DH
+2025-05-15 05:18:02,366 - INFO -   Land Rover: 424025.83 DH
+2025-05-15 05:18:02,366 - INFO -   Maserati: 420838.98 DH
+2025-05-15 05:18:02,366 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-15 05:18:02,366 - INFO -   Bentley: 1202653.06 DH
+2025-05-15 05:18:02,366 - INFO -   GMC: 1067142.86 DH
+2025-05-15 05:18:02,382 - INFO -   Ferrari: 930000.00 DH
+2025-05-15 05:18:02,382 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-15 05:18:02,538 - ERROR - Preprocessing failed: 'DataPreprocessor' object has no attribute 'marque_group_mapping'
+2025-05-15 05:21:04,379 - INFO - Initial dataset shape: (78398, 16)
+2025-05-15 05:21:04,427 - INFO - Shape after removing duplicates: (72141, 16)
+2025-05-15 05:21:07,643 - INFO - Shape after handling Marque and Mod�le: (71977, 16)
+2025-05-15 05:21:07,999 - INFO - Shape after handling Prix: (71789, 16)
+2025-05-15 05:21:08,311 - INFO - Shape after handling Puissance fiscale: (71789, 16)
+2025-05-15 05:21:08,561 - INFO - Shape after handling �tat: (71789, 16)
+2025-05-15 05:21:09,037 - INFO - Shape after handling �quipements: (71789, 19)
+2025-05-15 05:21:10,541 - INFO - Top 5 brands in �conomique cluster by price:
+2025-05-15 05:21:10,541 - INFO -   AC: 443166.67 DH
+2025-05-15 05:21:10,541 - INFO -   Lincoln: 350000.00 DH
+2025-05-15 05:21:10,541 - INFO -   Force: 218000.00 DH
+2025-05-15 05:21:10,541 - INFO -   Changan: 154888.89 DH
+2025-05-15 05:21:10,541 - INFO -   Iveco: 144133.33 DH
+2025-05-15 05:21:10,541 - INFO - Top 5 brands in Premium cluster by price:
+2025-05-15 05:21:10,541 - INFO -   Audi: 535764.91 DH
+2025-05-15 05:21:10,541 - INFO -   Porsche: 478112.51 DH
+2025-05-15 05:21:10,541 - INFO -   Tesla: 453932.19 DH
+2025-05-15 05:21:10,541 - INFO -   Land Rover: 424025.83 DH
+2025-05-15 05:21:10,541 - INFO -   Maserati: 420838.98 DH
+2025-05-15 05:21:10,541 - INFO - Top 5 brands in Luxe cluster by price:
+2025-05-15 05:21:10,541 - INFO -   Bentley: 1202653.06 DH
+2025-05-15 05:21:10,541 - INFO -   GMC: 1067142.86 DH
+2025-05-15 05:21:10,541 - INFO -   Ferrari: 930000.00 DH
+2025-05-15 05:21:10,541 - INFO -   Rolls-Royce: 750000.00 DH
+2025-05-15 05:21:11,609 - INFO - Price outliers clipped and log transformation applied
+2025-05-15 05:21:11,625 - INFO - Brand: AC, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Abarth, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Alfa Romeo, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Audi, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Autres, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: BMW, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: BYD, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Bentley, Classified as: Luxe
+2025-05-15 05:21:11,625 - INFO - Brand: Cadillac, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Changan, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Changhe, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Chery, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Chevrolet, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Chrysler, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Citroen, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Cupra, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: DFSK, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: DS, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Dacia, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Daewoo, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Daihatsu, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Dodge, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Faw, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Ferrari, Classified as: Luxe
+2025-05-15 05:21:11,625 - INFO - Brand: Fiat, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Force, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Ford, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Foton, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: GAZ, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: GMC, Classified as: Luxe
+2025-05-15 05:21:11,625 - INFO - Brand: GWM Motors, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Geely, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Honda, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Hummer, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Hyundai, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Infiniti, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Isuzu, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Iveco, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Jaguar, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Jeep, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Kia, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Lada, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Lancia, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Land Rover, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Lexus, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Lifan, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Lincoln, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: MG, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Mahindra, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Maserati, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Mazda, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Mercedes-Benz, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Mini, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Mitsubishi, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Nissan, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Opel, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Peugeot, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Porsche, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Renault, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Rolls-Royce, Classified as: Luxe
+2025-05-15 05:21:11,625 - INFO - Brand: Rover, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: SERES, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Seat, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Skoda, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Smart, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Ssangyong, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Subaru, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Suzuki, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Tata, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Tesla, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Toyota, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: UFO, Classified as: �conomique
+2025-05-15 05:21:11,625 - INFO - Brand: Volkswagen, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Volvo, Classified as: Premium
+2025-05-15 05:21:11,625 - INFO - Brand: Zotye, Classified as: �conomique
+2025-05-15 05:21:12,222 - INFO - Shape after handling ['Boite de vitesses', 'Type de carburant']: (71789, 21)
+2025-05-15 05:21:13,143 - INFO - Shape after handling Kilom�trage: (71789, 21)
+2025-05-15 05:21:13,393 - INFO - Shape after handling Ann�e-Mod�le: (71789, 21)
+2025-05-15 05:21:13,643 - INFO - Shape after handling Nombre de portes: (71755, 21)
+2025-05-15 05:21:13,846 - INFO - Shape after handling Premi�re main: (71755, 21)
+2025-05-15 05:21:14,112 - INFO - Scaler saved for prediction
+2025-05-15 05:21:14,112 - INFO - Completed smoothed and standardized target encoding
+2025-05-15 05:21:14,159 - INFO - Shape after dropping any remaining NaN values: (71755, 18)
+2025-05-15 05:21:14,159 - INFO - Writing 71755 rows and 18 columns to CSV...
+2025-05-15 05:21:15,115 - INFO - Final dataset shape: (71755, 18)
+2025-05-15 05:21:15,115 - INFO - Preprocessing completed successfully

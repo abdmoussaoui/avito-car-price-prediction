@@ -1,0 +1,48 @@
+2025-05-15 05:28:46,543 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2025-05-15 05:28:46,543 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2025-05-15 05:28:46,543 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2025-05-15 05:28:46,543 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2025-05-15 05:28:46,559 - INFO - Starting preprocessing of input data
+2025-05-15 05:28:46,559 - WARNING - No mapping found for Casablanca, Porshe, Carrera. Using global mean for Loc_Marque_Modèle_encoded.
+2025-05-15 05:28:46,577 - INFO - Input data preprocessing completed
+2025-05-15 05:28:46,581 - INFO - Predicted log price: 11.823685203917169
+2025-05-15 05:28:46,581 - INFO - Predicted price: 136445.14 DH
+2025-05-15 05:37:52,803 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2025-05-15 05:37:52,818 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2025-05-15 05:37:52,830 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2025-05-15 05:37:52,830 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2025-05-15 05:37:57,484 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2025-05-15 05:37:57,485 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2025-05-15 05:37:57,496 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2025-05-15 05:37:57,496 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2025-05-15 05:38:00,085 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2025-05-15 05:38:00,101 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2025-05-15 05:38:00,101 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2025-05-15 05:38:00,101 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2025-05-15 05:38:02,997 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2025-05-15 05:38:02,998 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2025-05-15 05:38:03,008 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2025-05-15 05:38:03,008 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2025-05-15 05:38:09,226 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2025-05-15 05:38:09,226 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2025-05-15 05:38:09,242 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2025-05-15 05:38:09,242 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2025-05-15 05:38:09,242 - INFO - Starting preprocessing of input data
+2025-05-15 05:38:09,242 - WARNING - No mapping found for Casablanca, Dacia, logan. Using global mean for Loc_Marque_Modèle_encoded.
+2025-05-15 05:38:09,260 - INFO - Input data preprocessing completed
+2025-05-15 05:38:09,264 - INFO - Predicted log price: 11.688892196876676
+2025-05-15 05:38:09,264 - INFO - Predicted price: 119238.84 DH
+2025-05-15 15:04:10,957 - INFO - Starting preprocessing of input data
+2025-05-15 15:04:11,074 - WARNING - No mapping found for , Dacia, Duster. Using global mean for Loc_Marque_Modèle_encoded.
+2025-05-15 15:04:11,125 - INFO - Input data preprocessing completed
+2025-05-15 15:04:11,541 - INFO - Predicted log price: 11.819637328554302
+2025-05-15 15:04:11,541 - INFO - Predicted price: 135893.93 DH
+2025-05-15 17:42:11,597 - INFO - Starting preprocessing of input data
+2025-05-15 17:42:11,665 - INFO - Input data preprocessing completed
+2025-05-15 17:42:12,047 - INFO - Predicted log price: 12.013001417588763
+2025-05-15 17:42:12,047 - INFO - Predicted price: 164883.65 DH
+2025-05-15 18:01:34,997 - INFO - Starting preprocessing of input data
+2025-05-15 18:01:35,013 - WARNING - No mapping found for , Dacia, Duster. Using global mean for Loc_Marque_Modèle_encoded.
+2025-05-15 18:01:35,046 - INFO - Input data preprocessing completed
+2025-05-15 18:01:35,263 - INFO - Predicted log price: 11.747955213707987
+2025-05-15 18:01:35,263 - INFO - Predicted price: 126493.64 DH

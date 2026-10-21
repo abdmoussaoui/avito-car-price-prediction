@@ -1,0 +1,16 @@
+
+# Environnement Python
+.venv/
+venv/
+Backend/.venv/
+
+# Modèles entraînés volumineux
+*.pkl
+*.joblib
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env

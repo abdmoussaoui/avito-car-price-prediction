@@ -1,0 +1,46 @@
+{
+  "scaler_path": "../models_lib/scaler.pkl",
+  "log_path": "../../logs/preprocessing.log",
+  "data_path": "../../data/raw/cars_data.csv",
+  "output_path": "../../data/preprocessing/clean_data.csv",
+  "mapping_path": "../../data/preprocessing/loc_marque_modele_mapping.csv",
+  "cities_mapping": {
+    "فاس": "Fès",
+    "أكادير": "Agadir",
+    "مراكش": "Marrakech",
+    "القنيطرة": "Kénitra",
+    "Agadir Melloul": "Agadir",
+    "الدار البيضاء": "Casablanca"
+  },
+  "status_mapping": {
+    "Neuf": 5,
+    "Excellent": 4,
+    "Très bon": 3,
+    "Bon": 2,
+    "Correct": 1,
+    "Endommagé": 0,
+    "Pour Pièces": -1
+  },
+  "safety_features": [
+    "ABS",
+    "ESP",
+    "Airbags",
+    "Radar de recul",
+    "Caméra de recul",
+    "Limiteur de vitesse",
+    "Régulateur de vitesse"
+  ],
+  "comfort_features": [
+    "Sièges cuir",
+    "Toit ouvrant",
+    "Climatisation",
+    "Vitres électriques",
+    "Verrouillage centralisé à distance"
+  ],
+  "tech_features": [
+    "CD/MP3/Bluetooth",
+    "Jantes aluminium",
+    "Ordinateur de bord",
+    "Système de navigation/GPS"
+  ]
+}

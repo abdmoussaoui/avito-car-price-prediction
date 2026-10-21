@@ -1,0 +1,11 @@
+{
+  "car_url": "div.sc-1nre5ec-1 > a.sc-1jge648-0",
+  "car_general_info": "div.sc-1g3sn3w-4",
+  "car_title": "div.sc-1veij0r-3 h1.sc-1veij0r-5",
+  "car_price": "div.sc-1veij0r-8 p.sc-1x0vz2r-0",
+  "car_location": "div.sc-1veij0r-6 span.sc-1x0vz2r-0",
+  "car_post_time": "div.sc-1veij0r-6 span.sc-1x0vz2r-0 > time",
+  "car_specifications": "div.sc-1g3sn3w-3 > div.sc-19cngu6-0 > div.sc-19cngu6-1 > div.sc-19cngu6-2",
+  "car_specification": "div.sc-1g3sn3w-3 > div.sc-19cngu6-0 > div.sc-19cngu6-1 > div.sc-19cngu6-2 > span.sc-1x0vz2r-0",
+  "car_equipments": "div.sc-1g3sn3w-3:-soup-contains(\"Équipements\") > div.sc-19cngu6-0 > div.sc-19cngu6-1 > div.sc-19cngu6-2 > span.sc-1x0vz2r-0"
+}
