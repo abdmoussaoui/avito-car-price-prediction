@@ -7,6 +7,7 @@ Backend/.venv/
 # Modèles entraînés volumineux
 *.pkl
 *.joblib
+Backend/src/models_lib/*.pkl
 
 # Fichiers Python temporaires
 __pycache__/
