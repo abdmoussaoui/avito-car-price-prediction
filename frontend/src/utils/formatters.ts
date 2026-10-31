@@ -1,3 +1,3 @@
 export const formatPrice = (price: number): string => {
-  return new Intl.NumberFormat().format(Math.round(price));
+  return new Intl.NumberFormat('fr-MA', { maximumFractionDigits: 0 }).format(price);
 };

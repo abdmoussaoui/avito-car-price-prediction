@@ -15,10 +15,18 @@ export interface CarData {
 
 export interface PredictionResult {
   estimatedPrice: number;
-  priceRange: {
-    min: number;
-    max: number;
-  };
-  confidence: number;
-  estimatedTax: number;
 }
+
+export interface CarOptions {
+  brands: string[];
+  models: Record<string, string[]>;
+  locations: string[];
+  equipment: string[];
+  conditions: string[];
+  fuels: string[];
+  min_year: number;
+  max_year: number;
+  training_max_year: number;
+}
+
+export type FieldErrors = Partial<Record<keyof CarData, string>>;

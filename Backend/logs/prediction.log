@@ -46,3 +46,130 @@
 2025-05-15 18:01:35,046 - INFO - Input data preprocessing completed
 2025-05-15 18:01:35,263 - INFO - Predicted log price: 11.747955213707987
 2025-05-15 18:01:35,263 - INFO - Predicted price: 126493.64 DH
+2026-10-31 23:06:15,526 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2026-10-31 23:06:15,535 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2026-10-31 23:06:15,566 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2026-10-31 23:06:15,567 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:12:50,190 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2026-10-31 23:12:50,192 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2026-10-31 23:12:50,216 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2026-10-31 23:12:50,216 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:15:49,708 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2026-10-31 23:15:49,709 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2026-10-31 23:15:49,727 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2026-10-31 23:15:49,727 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:15:57,041 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2026-10-31 23:15:57,042 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2026-10-31 23:15:57,066 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2026-10-31 23:15:57,066 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:16:25,373 - INFO - Starting preprocessing of input data
+2026-10-31 23:16:25,423 - WARNING - No mapping found for , dacia, 2013. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:16:25,439 - INFO - Input data preprocessing completed
+2026-10-31 23:16:25,461 - INFO - Predicted log price: 11.669821971771464
+2026-10-31 23:16:25,462 - INFO - Predicted price: 116986.45 DH
+2026-10-31 23:23:23,622 - INFO - Loaded model from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\best_model.pkl
+2026-10-31 23:23:23,623 - INFO - Loaded scaler from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\src\models_lib\scaler.pkl
+2026-10-31 23:23:23,641 - INFO - Loaded mapping from D:\cours licence\s6\machine learning\pfm\Car-Price-Prediction\Backend\data\preprocessing\loc_marque_modele_mapping.csv
+2026-10-31 23:23:23,641 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:23:23,651 - INFO - Starting preprocessing of input data
+2026-10-31 23:23:23,661 - WARNING - No mapping found for Casablanca, Dacia, logan. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:23:23,669 - INFO - Input data preprocessing completed
+2026-10-31 23:23:23,670 - INFO - Starting preprocessing of input data
+2026-10-31 23:23:23,682 - WARNING - No mapping found for Casablanca, Dacia, logan. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:23:23,695 - INFO - Input data preprocessing completed
+2026-10-31 23:23:23,720 - INFO - Predicted log price: 11.678441478599684
+2026-10-31 23:23:23,720 - INFO - Predicted price: 117999.19 DH
+2026-10-31 23:23:23,721 - INFO - Starting preprocessing of input data
+2026-10-31 23:23:23,738 - INFO - Input data preprocessing completed
+2026-10-31 23:23:23,739 - INFO - Starting preprocessing of input data
+2026-10-31 23:23:23,755 - INFO - Input data preprocessing completed
+2026-10-31 23:23:23,769 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:23:23,769 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:23:23,770 - INFO - Starting preprocessing of input data
+2026-10-31 23:23:23,779 - WARNING - No mapping found for Tanger, Volkswagen, Golf. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:23:23,788 - INFO - Input data preprocessing completed
+2026-10-31 23:23:23,789 - INFO - Starting preprocessing of input data
+2026-10-31 23:23:23,800 - WARNING - No mapping found for Tanger, Volkswagen, Golf. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:23:23,808 - INFO - Input data preprocessing completed
+2026-10-31 23:23:23,821 - INFO - Predicted log price: 11.272986748979553
+2026-10-31 23:23:23,821 - INFO - Predicted price: 78666.61 DH
+2026-10-31 23:25:26,828 - INFO - Loaded original model, scaler and location/brand/model mapping
+2026-10-31 23:25:26,828 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:30:13,884 - INFO - Loaded original model, scaler and location/brand/model mapping
+2026-10-31 23:30:13,885 - ERROR - Error computing R² score: [Errno 2] No such file or directory: 'D:\\cours licence\\s6\\machine learning\\pfm\\Car-Price-Prediction\\Backend\\data\\validation_data.csv'
+2026-10-31 23:30:14,385 - INFO - Starting preprocessing of input data
+2026-10-31 23:30:14,407 - WARNING - No mapping found for Casablanca, Dacia, logan. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:30:14,419 - INFO - Input data preprocessing completed
+2026-10-31 23:30:14,437 - INFO - Predicted log price: 11.678441478599684
+2026-10-31 23:30:14,437 - INFO - Predicted price: 117999.19 DH
+2026-10-31 23:30:14,463 - INFO - Starting preprocessing of input data
+2026-10-31 23:30:14,489 - INFO - Input data preprocessing completed
+2026-10-31 23:30:14,748 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:30:14,748 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:30:14,778 - INFO - Starting preprocessing of input data
+2026-10-31 23:30:14,800 - WARNING - No mapping found for Tanger, Volkswagen, Golf. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:30:14,819 - INFO - Input data preprocessing completed
+2026-10-31 23:30:14,883 - INFO - Predicted log price: 11.272986748979553
+2026-10-31 23:30:14,886 - INFO - Predicted price: 78666.61 DH
+2026-10-31 23:32:28,057 - INFO - Starting preprocessing of input data
+2026-10-31 23:32:28,268 - INFO - Input data preprocessing completed
+2026-10-31 23:32:28,572 - INFO - Predicted log price: 11.730636892775227
+2026-10-31 23:32:28,573 - INFO - Predicted price: 124321.83 DH
+2026-10-31 23:32:43,200 - INFO - Starting preprocessing of input data
+2026-10-31 23:32:43,238 - INFO - Input data preprocessing completed
+2026-10-31 23:32:43,274 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:32:43,274 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:32:55,624 - INFO - Starting preprocessing of input data
+2026-10-31 23:32:55,649 - INFO - Input data preprocessing completed
+2026-10-31 23:32:55,665 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:32:55,665 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:34:49,792 - INFO - Loaded original model, scaler and location/brand/model mapping
+2026-10-31 23:34:49,794 - INFO - Optional validation dataset is absent; historical training metrics are unchanged
+2026-10-31 23:34:58,065 - INFO - Loaded original model, scaler and location/brand/model mapping
+2026-10-31 23:34:58,065 - INFO - Optional validation dataset is absent; historical training metrics are unchanged
+2026-10-31 23:34:58,651 - INFO - Starting preprocessing of input data
+2026-10-31 23:34:58,676 - WARNING - No mapping found for Casablanca, Dacia, logan. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:34:58,691 - INFO - Input data preprocessing completed
+2026-10-31 23:34:58,716 - INFO - Predicted log price: 11.678441478599684
+2026-10-31 23:34:58,716 - INFO - Predicted price: 117999.19 DH
+2026-10-31 23:34:58,723 - INFO - Starting preprocessing of input data
+2026-10-31 23:34:58,751 - INFO - Input data preprocessing completed
+2026-10-31 23:34:58,768 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:34:58,768 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:34:58,772 - INFO - Starting preprocessing of input data
+2026-10-31 23:34:58,786 - WARNING - No mapping found for Tanger, Volkswagen, Golf. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:34:58,794 - INFO - Input data preprocessing completed
+2026-10-31 23:34:58,811 - INFO - Predicted log price: 11.272986748979553
+2026-10-31 23:34:58,811 - INFO - Predicted price: 78666.61 DH
+2026-10-31 23:35:09,724 - INFO - Starting preprocessing of input data
+2026-10-31 23:35:09,745 - INFO - Input data preprocessing completed
+2026-10-31 23:35:09,759 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:35:09,759 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:45:25,092 - INFO - Loaded original model, scaler and location/brand/model mapping
+2026-10-31 23:45:25,092 - INFO - Optional validation dataset is absent; historical training metrics are unchanged
+2026-10-31 23:45:25,614 - INFO - Starting preprocessing of input data
+2026-10-31 23:45:25,638 - WARNING - No mapping found for Casablanca, Dacia, logan. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:45:25,649 - INFO - Input data preprocessing completed
+2026-10-31 23:45:25,671 - INFO - Predicted log price: 11.678441478599684
+2026-10-31 23:45:25,671 - INFO - Predicted price: 117999.19 DH
+2026-10-31 23:45:25,677 - INFO - Starting preprocessing of input data
+2026-10-31 23:45:25,699 - INFO - Input data preprocessing completed
+2026-10-31 23:45:25,718 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:45:25,718 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:45:25,742 - INFO - Starting preprocessing of input data
+2026-10-31 23:45:25,754 - WARNING - No mapping found for Tanger, Volkswagen, Golf. Using global mean for Loc_Marque_Modèle_encoded.
+2026-10-31 23:45:25,765 - INFO - Input data preprocessing completed
+2026-10-31 23:45:25,789 - INFO - Predicted log price: 11.272986748979553
+2026-10-31 23:45:25,789 - INFO - Predicted price: 78666.61 DH
+2026-10-31 23:45:56,286 - INFO - Starting preprocessing of input data
+2026-10-31 23:45:56,335 - INFO - Input data preprocessing completed
+2026-10-31 23:45:56,552 - INFO - Predicted log price: 11.339586002023065
+2026-10-31 23:45:56,552 - INFO - Predicted price: 84084.21 DH
+2026-10-31 23:47:14,178 - INFO - Starting preprocessing of input data
+2026-10-31 23:47:14,195 - INFO - Input data preprocessing completed
+2026-10-31 23:47:14,236 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:47:14,236 - INFO - Predicted price: 124241.50 DH
+2026-10-31 23:48:41,989 - INFO - Starting preprocessing of input data
+2026-10-31 23:48:42,014 - INFO - Input data preprocessing completed
+2026-10-31 23:48:42,027 - INFO - Predicted log price: 11.729990544803838
+2026-10-31 23:48:42,027 - INFO - Predicted price: 124241.50 DH

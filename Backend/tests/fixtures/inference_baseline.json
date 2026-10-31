@@ -1,0 +1,139 @@
+{
+  "fixtures": [
+    {
+      "input": {
+        "Marque": "Dacia",
+        "Modèle": "logan",
+        "Localisation": "Casablanca",
+        "Année-Modèle": 2020,
+        "Kilométrage": "50 000 - 74 999",
+        "Puissance fiscale": "6 CV",
+        "Nombre de portes": 5,
+        "État": "Bon",
+        "Première main": "Oui",
+        "Équipements": [
+          "ABS",
+          "Airbags",
+          "Climatisation"
+        ],
+        "Type de carburant": "Diesel",
+        "Boite de vitesses": "Manuelle"
+      },
+      "features": {
+        "Kilométrage": -0.7008487131356814,
+        "Année-Modèle": 0.8676003514242288,
+        "Puissance fiscale": -0.5172439167722427,
+        "Nombre de portes": 0.26491420473070226,
+        "État": -1.5907296515075913,
+        "Première main": 1.3397204267469796,
+        "Safety_Score": -0.29465812029946686,
+        "Comfort_Score": -0.5829715832347496,
+        "Tech_Score": -1.0291495020531882,
+        "Loc_Marque_Modèle_encoded": -0.18806408706256753,
+        "Boite de vitesses_Automatique": 0.0,
+        "Boite de vitesses_Manuelle": 1.0,
+        "Type de carburant_Diesel": 1.0,
+        "Type de carburant_Electrique": 0.0,
+        "Type de carburant_Essence": 0.0,
+        "Type de carburant_Hybride": 0.0,
+        "Type de carburant_LPG": 0.0
+      },
+      "price": 117999.18586806845
+    },
+    {
+      "input": {
+        "Marque": "Renault",
+        "Modèle": "Clio",
+        "Localisation": "Rabat",
+        "Année-Modèle": 2022,
+        "Kilométrage": "45000",
+        "Puissance fiscale": "6 CV",
+        "Nombre de portes": 5,
+        "État": "Bon",
+        "Première main": "Oui",
+        "Équipements": [
+          "ABS",
+          "Airbags",
+          "Climatisation"
+        ],
+        "Type de carburant": "Essence",
+        "Boite de vitesses": "Automatique"
+      },
+      "features": {
+        "Kilométrage": -0.864174449899532,
+        "Année-Modèle": 1.0952566480407082,
+        "Puissance fiscale": -0.5172439167722427,
+        "Nombre de portes": 0.26491420473070226,
+        "État": -1.5907296515075913,
+        "Première main": 1.3397204267469796,
+        "Safety_Score": -0.29465812029946686,
+        "Comfort_Score": -0.5829715832347496,
+        "Tech_Score": -1.0291495020531882,
+        "Loc_Marque_Modèle_encoded": -0.13409582496835357,
+        "Boite de vitesses_Automatique": 1.0,
+        "Boite de vitesses_Manuelle": 0.0,
+        "Type de carburant_Diesel": 0.0,
+        "Type de carburant_Electrique": 0.0,
+        "Type de carburant_Essence": 1.0,
+        "Type de carburant_Hybride": 0.0,
+        "Type de carburant_LPG": 0.0
+      },
+      "price": 124241.49563161771
+    },
+    {
+      "input": {
+        "Marque": "Volkswagen",
+        "Modèle": "Golf",
+        "Localisation": "Tanger",
+        "Année-Modèle": 2018,
+        "Kilométrage": "Plus de 500 000",
+        "Puissance fiscale": "6 CV",
+        "Nombre de portes": 5,
+        "État": "Bon",
+        "Première main": "Oui",
+        "Équipements": [
+          "ABS",
+          "Airbags",
+          "Climatisation"
+        ],
+        "Type de carburant": "Electrique",
+        "Boite de vitesses": "Manuelle"
+      },
+      "features": {
+        "Kilométrage": 4.315732627670515,
+        "Année-Modèle": 0.6399440548077493,
+        "Puissance fiscale": -0.5172439167722427,
+        "Nombre de portes": 0.26491420473070226,
+        "État": -1.5907296515075913,
+        "Première main": 1.3397204267469796,
+        "Safety_Score": -0.29465812029946686,
+        "Comfort_Score": -0.5829715832347496,
+        "Tech_Score": -1.0291495020531882,
+        "Loc_Marque_Modèle_encoded": -0.18806408706256753,
+        "Boite de vitesses_Automatique": 0.0,
+        "Boite de vitesses_Manuelle": 1.0,
+        "Type de carburant_Diesel": 0.0,
+        "Type de carburant_Electrique": 1.0,
+        "Type de carburant_Essence": 0.0,
+        "Type de carburant_Hybride": 0.0,
+        "Type de carburant_LPG": 0.0
+      },
+      "price": 78666.60702529374
+    }
+  ],
+  "hashes": {
+    "src\\models_lib\\best_model.pkl": "2c9ca732fc081879a279928b1452bd5c51f7cd84453f630d3b25201c6bdffa98",
+    "src\\models_lib\\lightgbm_model.pkl": "2617933ee80c8b1e9a98c3c9d2cb7bc339bad0c4ceea4664bffe2c8e86dcf6d9",
+    "src\\models_lib\\linear_regression_model.pkl": "ad1603def333482af9cc5b89e5227c627f13ea059783a14a7fcbc4b362438a86",
+    "src\\models_lib\\scaler.pkl": "52c38954fd07dde04b12682d31f7c3d887cc02e2ad4cece3bcd081df83135759",
+    "data\\preprocessing\\clean_data.csv": "0614d159c6b1562d0f152b98527994bc98400777ab64a13a1c738c6660fef9f2",
+    "data\\preprocessing\\loc_marque_modele_mapping.csv": "b7b2854cf0b95f8537062410519523ce03f765b44abf01d9845eb97171a881e9",
+    "data\\raw\\cars_data.csv": "686220cc6287d8fbf08b1e0f87ca01a4a2f51ea25274b4429b414ab35ad9be51",
+    "logs\\training.log": "4026fd652c12d2c6fbbaccbba17b363c11ae05526f3f92d8e2947dbabfceb577",
+    "logs/training.log": "4026fd652c12d2c6fbbaccbba17b363c11ae05526f3f92d8e2947dbabfceb577",
+    "logs/preprocessing.log": "d1aee8d77dcb1c45c7b93479e5dae274939b21716811e579bc277789ebbe9c1a",
+    "src/preprocessing/preprocess_car_data.py": "7fc9a5ac4ab099918695bc06b081bad5c4e7b33c6cf27ff8cbee42e7adf2b915",
+    "src/preprocessing/config/config.json": "8d751c4dc93981437596a82a201eacad42b57f8db868c0d70d157d051a5566b3",
+    "src/models/train_models.py": "394e7614e2e957c299eabff509f60e9f4c83e54019e840e539977b21a38894ea"
+  }
+}
