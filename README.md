@@ -74,21 +74,3 @@ Backend/src/
 
 Les données brutes, données nettoyées, modèles sauvegardés et scripts d’entraînement sont conservés. Les métriques historiques restent dans `Backend/logs/training.log` : le meilleur modèle Random Forest y possède un R² de test de **0,7930**. Ce score global historique n’est pas une confiance par prédiction. Le fichier facultatif `Backend/data/validation_data.csv` n’est pas fourni ; son absence est journalisée et le calcul d’évaluation facultatif est ignoré sans empêcher les prédictions.
 
-## Vérifications
-
-Depuis `Backend` :
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
-```
-
-Les tests utilisent les véritables artefacts : identité des transformations et prédictions avant/après refactorisation, empreintes SHA-256 des modèles/données/scripts/métriques, validation, gestion d’erreurs, requêtes HTTP et CORS. Le serveur de test utilise un port libre et s’arrête après les tests.
-
-Depuis `frontend` :
-
-```powershell
-npx tsc --noEmit -p tsconfig.app.json
-npm run build
-```
-
-Le test navigateur facultatif `frontend/scripts/browser-smoke.mjs` utilise Node.js 22+ et le protocole DevTools de Chrome, sans dépendance supplémentaire. Il attend les deux serveurs locaux et une instance Chrome headless avec un profil séparé et `--remote-debugging-port=9225`. Il vérifie le formulaire, une véritable prédiction, les états de chargement, la réinitialisation, la reconnexion et cinq largeurs d’écran.
